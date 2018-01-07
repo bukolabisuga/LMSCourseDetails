@@ -326,4 +326,7 @@ section.search-area .navbar {
         width: 50%;
         padding-bottom: 0.5em;
     }
+    section.mid__section:after {
+        display: none;
+    }
 }
