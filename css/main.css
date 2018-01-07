@@ -311,4 +311,19 @@ section.search-area .navbar {
     .course__menu {
         z-index: 1;
     }
+    .main__section .col-7 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .course__menu .list-group .list-group-item {
+        padding: 1em;
+        height: 4em;
+    }
+    .course__menu .list-group .list-group-item p:first-child {
+        float: left;
+    }
+    .info__row.row .duration.col-sm, .info__row.row .time.col-sm, .info__row.row .date.col-sm {
+        width: 50%;
+        padding-bottom: 0.5em;
+    }
 }
