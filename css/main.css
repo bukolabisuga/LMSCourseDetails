@@ -72,7 +72,12 @@ section.mid__section:after {
     color: #959595;
     margin-right: 15px;
 }
-
+.user__drop .nav-link span {
+    font-size: 0.8em
+}
+.user__drop .nav-link span:last-child {
+    font-weight: 600;
+}
 
 /* Search */
 section.search-area {
@@ -138,6 +143,7 @@ section.search-area .navbar {
     height: 2em;
     background-color: #AB192D;
     color: #2E353D;
+    cursor: pointer;
 }
 .course__menu .course__menu--bars i {
     font-weight: 600;
@@ -155,8 +161,9 @@ section.search-area .navbar {
     padding-top: 2em;
     cursor: pointer;
 }
-
-
+#list {
+    display: none;
+}
 
 .mx-auto .learn-btn {
     margin-top: 3em;
@@ -164,6 +171,7 @@ section.search-area .navbar {
     font-size: 1em;
     padding: 1em;
     width: 12em;
+    background-color: #AB192D;
 }
 
 .comment .comment-avatar {
@@ -271,4 +279,36 @@ section.search-area .navbar {
     height: 2em;
     width: 2em;
     font-weight: 600;
+}
+
+/* Responsive queries */
+@media only screen and (max-width: 600px) {
+    .navbar .navbar-brand img {
+        width: 7em;
+    }
+    .mid__section {
+        padding-top: 1em;
+    }
+    .mid__section .col-7 h4 {
+        width: 15em;
+        font-size: 1.2em;
+    }
+    .mid__section .col-7 p {
+        width: 15em;
+        font-size: 0.8em;
+    }
+    .mid__section .col.csr.text-right h6 {
+        font-size: 0.8em;
+    }
+    .course__menu--bars {
+        width: 2em;
+        margin-top: -7em;
+        height: 1.5em;
+    }
+    .course__menu .course__menu--bars i {
+        padding-right: 0.55em;
+    }
+    .course__menu {
+        z-index: 1;
+    }
 }

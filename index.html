@@ -18,7 +18,7 @@
                     <img src="img/sterling.png" alt="Sterling Bank Logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
@@ -30,6 +30,18 @@
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa fa-bell-o"></i></a>
+                        </li>
+                        <li class="user__drop nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user"></i>
+                                <span>Welcome</span>&nbsp;<span>Samuel</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
                         </li>
                     </ul>
                     </div>
@@ -69,10 +81,10 @@
                 <div class="row">
                     <div class="col-2">
                         <div class="course__menu">
-                            <div class="course__menu--bars">
+                            <div class="course__menu--bars" id="hide">
                                 <i class="fa fa-bars pull-right"></i>
                             </div>
-                            <ul class="list-group">
+                            <ul class="loaded list-group" id="list">
                                 <li class="list-group-item text-center">
                                     <p><i class="fa fa-book"></i></p>
                                     <p>My Courses</p>
@@ -98,7 +110,7 @@
                     </div>
                     <div class="col-7">
                         <nav>
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
                                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Overview</a>
                                 <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Instructional Objective</a>
                                 <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Curriculum</a>
@@ -307,14 +319,17 @@
                                 </li>
                             </ul>
                         </div>
+
                     </div>
                     
                 </div>
             </div>
         </section>
         
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
