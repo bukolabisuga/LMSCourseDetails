@@ -1,0 +1,23 @@
+{
+  "name": "lmscoursedetails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bukolabisuga/LMSCourseDetails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bukolabisuga/LMSCourseDetails/issues"
+  },
+  "homepage": "https://github.com/bukolabisuga/LMSCourseDetails#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0"
+  }
+}
